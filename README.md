@@ -63,8 +63,7 @@ This Restaurant-Menu-WebApp documentation included in this repo in the root dire
  * see the menu
  * edit/delete the restaurant
  * edit/delete the menu item
-
-Interacting with these options will update the database.
+* Interacting with these options will update the database.
 
 
 ## CREATOR

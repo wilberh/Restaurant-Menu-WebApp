@@ -1,0 +1,72 @@
+<html>
+
+<head>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='styles.css') }}">
+	</head>
+
+
+<body>
+<div class = 'pane'>
+<p>
+
+<h1>Edit Menu Item</h1>
+
+<form action="{{url_for('editMenuItem', restaurant_id = restaurant_id, menu_id = menu_id, item = editedItem)}}" method='post'>
+
+<h4>Name:</h4>
+<input type='text' size='30' name='name' placeholder='{{item.name}}'>
+</br></br>
+
+<h4>Description:</h4>
+<input type='text' size='30' name='description' placeholder='{{item.description}}'>
+</br></br>
+
+<h4>Price:</h4>
+<input type='text' size='30' name='price' placeholder='{{item.price}}'>
+</br></br>
+
+
+
+<h4>Course:</h4>
+<div class= 'leftAlign'>
+{% if item.course == 'Appetizer' %}
+<input type='radio' style="vertical-align: left" name='course' value='Appetizer' checked> Appetizer
+{% else %}
+<input type='radio' style="vertical-align: left" name='course' value='Appetizer'> Appetizer
+{% endif %}
+</br>
+
+{% if item.course == 'Entree' %}
+<input type='radio' style="vertical-align: left" name='course' value='Entree' checked/> Entree
+{% else %}
+<input type='radio' style="vertical-align: left" name='course' value='Entree' /> Entree
+{% endif %}
+</br>
+
+{% if item.course == 'Dessert' %}
+<input type='radio' name='course' value='Dessert' checked/> Dessert
+{% else %}
+<input type='radio' name='course' value='Dessert'/> Dessert
+{% endif %}
+</br>
+
+{% if item.course == 'Beverage' %}
+<input type='radio' name='course' value='Beverage' checked/> Beverage
+{% else %}
+<input type='radio' name='course' value='Beverage'/> Beverage
+{% endif %}
+</div>
+</br></br>
+<input type='submit' value='Edit'> 
+
+<a href = '{{url_for('showMenu', restaurant_id = restaurant_id)}}'>Cancel</a>
+
+</form>
+
+</p>
+</div>
+</body>
+
+
+
+</html>	

@@ -26,9 +26,9 @@ A second Python module (finalproject.py) was use to start the web server.
 The database_setup.py Python file needs be run to create the database and corresponding tables.  The finalproject.py Python file will start the web server and render the necessary webpages as the user interacts with them.
 
 API Endpoints (GET Requests) have been added to the finalproject.py Python file so the following 3 JSON links can be use to pull the following data from the database,
-* List of Restaurants (link: /restaurants/JSON/)
-* List of Menu Items for a specific restaurant (link:/restaurants/<int:restaurant_id>/menu/JSON/)
-* List 1 Menu Item for a specific restaurant (link: /restaurants/<int:restaurant_id>/menu/<int:menu_id>/JSON/)
+* List of Restaurants (link:  /restaurants/JSON/)
+* List of Menu Items for a specific restaurant (link:  /restaurants/<int:restaurant_id>/menu/JSON/)
+* List 1 Menu Item for a specific restaurant (link:  /restaurants/<int:restaurant_id>/menu/<int:menu_id>/JSON/)
 
 
 ## WHAT'S INCLUDED

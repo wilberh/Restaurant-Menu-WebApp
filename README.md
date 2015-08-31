@@ -2,7 +2,7 @@
 - Audacity Project 3:  Item Catalog - using SQLAlchemy, Flask, and Python
 
 
-This is an implementation of a web application that provides a list of restaurants and detail information of the menu items.  Users have the ability to post, edit, and delete the menu items and restaurants.  The Flask framework was use to put together the webpages along with HTML, and CSS.
+This is an implementation of a web application that provides a list of restaurants and detail information of their menu items.  Users have the ability to post, edit, and delete the menu items and restaurants.  The Flask framework was use to put together the webpages along with HTML, and CSS.
 
 This project used SQLAlchemy to build a datbase from a Python module (database_setup.py).
 Then, another Python module (finalproject.py) is used to start the web server.

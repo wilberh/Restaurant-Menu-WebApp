@@ -7,7 +7,8 @@ This is an implementation of a web application that provides a list of restauran
 This project used SQLAlchemy to build a database from a Python module (database_setup.py).
 A second Python module (finalproject.py) was use to start the web server.
 
-##This project consists of 2 Python version 2.7.9 files, 8 HTML files, and 1 CSS file,
+##This project consists of 
+2 Python version 2.7.9 files, 8 HTML files, and 1 CSS file,
 
 * The database_setup.py Python file is for creating the datbase using SQLAlchemy.  
 * The finalproject.py Python file is for starting the web server and rendering the webpages.  

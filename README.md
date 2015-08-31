@@ -57,8 +57,13 @@ This Restaurant-Menu-WebApp documentation included in this repo in the root dire
 - 1. If necessary, install Python version 2.7.9, Flask web framework (http://flask.pocoo.org/docs/0.10/installation/), and SQLAlchemy (http://www.sqlalchemy.org/download.html) in a Linux database server or Linux virtual database server
 - 2. From the root /Restaurant-Menu-WebApp directory, run database_setup.py in the command line by typing, "python database_setup.py" 
 - 3. From the root /Restaurant-Menu-WebApp directory, run finalproject.py in the command line by typing, "python finalproject.py"
-- 4. Open your web browser with the link, http://localhost:5000/restaurants/ 
-The program will list if any all the restaurants in your database and options see the menu, edit/delete the restaurant, and to create a new restaurant. Interacting with these options accordingly will update the database created.
+- 4. Open your web browser using the link, http://localhost:5000/restaurants/
+* The program will list if any all the restaurants in your database and the following options,
+ * create a new restaurant
+ * see the menu
+ * edit/delete the restaurant
+ * edit/delete the menu item
+Interacting with these options will update the database.
 
 
 ## CREATOR

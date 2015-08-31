@@ -11,14 +11,14 @@ This project consists of 2 Python version 2.7.9 files, 8 HTML files, and 1 CSS f
 - 1.The database_setup.py Python file is for creating the datbase using SQLAlchemy.  
 - 2.The finalproject.py Python file is for starting the web server and rendering the webpages.  
 - 3.The 8 HTML files contain the user interface for the web app,
-  -restaurants.html
-  -menu.html
-  -deleteRestaurant.html
-  -deleteMenuItem.html
-  -editRestaurant.html
-  -editMenuItem.html
-  -newRestaurant.html
-  -newMenuItem.html
+  *restaurants.html
+  *menu.html
+  *deleteRestaurant.html
+  *deleteMenuItem.html
+  *editRestaurant.html
+  *editMenuItem.html
+  *newRestaurant.html
+  *newMenuItem.html
 - 4.The 1 CSS file (styles.css) contain the styling of the 8 HTML files.
 
 The database_setup.py Python file needs be run to create the database and corresponding tables.  The finalproject.py Python file will start the web server and render the necessary webpages as the user interacts with them.

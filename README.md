@@ -8,6 +8,7 @@ This project used SQLAlchemy to build a database from a Python module (database_
 A second Python module (finalproject.py) was use to start the web server.
 
 This project consists of 2 Python version 2.7.9 files, 8 HTML files, and 1 CSS file,
+
 -1. The database_setup.py Python file is for creating the datbase using SQLAlchemy.  
 -2.The finalproject.py Python file is for starting the web server and rendering the webpages.  
 -3. The 8 HTML files contain the user interface for the web app,

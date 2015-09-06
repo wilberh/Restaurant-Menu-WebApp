@@ -8,41 +8,51 @@ This project used SQLAlchemy to build a database from a Python module (database_
 A second Python module (finalproject.py) was use to start the web server.
 
 ##This project consists of 
-2 Python version 2.7.9 files, 8 HTML files, and 1 CSS file,
+2 Python version 2.7.9 files, 13 HTML files, and 1 CSS file,
 
 * 1. The database_setup.py Python file is for creating the datbase using SQLAlchemy.  
 * 2. The finalproject.py Python file is for starting the web server and rendering the webpages.  
-* 3. The 8 HTML files contain the user interface for the web app,
-  * restaurants.html
-  * menu.html
+* 3. The 13 HTML files contain the user interface for the web app,
+  * deletemenuitem.html
   * deleteRestaurant.html
-  * deleteMenuItem.html
+  * editmenuitem.html
   * editRestaurant.html
-  * editMenuItem.html
+  * header.html
+  * login.html
+  * main.html
+  * menu.html
+  * newmenuitem.html
   * newRestaurant.html
-  * newMenuItem.html
+  * publicmenu.html
+  * publicrestaurants.html
+  * restaurants.html
 * 4. The 1 CSS file (styles.css) contain the styling of the 8 HTML files.
 
 The database_setup.py Python file needs be run to create the database and corresponding tables.  The finalproject.py Python file will start the web server and render the necessary webpages as the user interacts with them.
 
 API Endpoints (GET Requests) have been added to the finalproject.py Python file so the following 3 JSON links can be use to pull the following data from the database,
-* List of Restaurants (link:  /restaurants/JSON/)
-* List of Menu Items for a specific restaurant (link:  /restaurants/<int:restaurant_id>/menu/JSON/)
-* List 1 Menu Item for 1 restaurant (link:  /restaurants/<int:restaurant_id>/menu/<int:menu_id>/JSON/)
+* List of Restaurants (link:  /restaurant/JSON/)
+* List of Menu Items for a specific restaurant (link:  /restaurant/<int:restaurant_id>/menu/JSON/)
+* List 1 Menu Item for 1 restaurant (link:  /restaurant/<int:restaurant_id>/menu/<int:menu_id>/JSON/)
 
 
 ## WHAT'S INCLUDED
 within the download you'll find the following files:
 - database_setup.py
 - finalproject.py
-- restaurants.html
-- menu.html
+- deletemenuitem.html
 - deleteRestaurant.html
-- deleteMenuItem.html
+- editmenuitem.html
 - editRestaurant.html
-- editMenuItem.html
+- header.html
+- login.html
+- main.html
+- menu.html
+- newmenuitem.html
 - newRestaurant.html
-- newMenuItem.html
+- publicmenu.html
+- publicrestaurants.html
+- restaurants.html
 - styles.css
 
 

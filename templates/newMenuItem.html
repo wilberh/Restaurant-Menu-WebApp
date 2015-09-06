@@ -1,50 +1,55 @@
-<html>
+{% extends "main.html" %}
+{% block content %}
+{% include "header.html" %}
+	<div class="row divider green">
+		<div class="col-md-12"></div>
+	</div>
+	<div class="row banner menu">
+		<div class="col-md-11 col-md-offset-1 padding-none">
+			<h1>New Menu Item</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 col-md-offset-1 padding-top">
+			<form action="#" method = "post">
+				<div class="form-group">
+					<label for="name">Name:</label>
+					<input type ="text" maxlength="50" class="form-control" name="name"placeholder="Name of the course">
 
-<head>
-<link rel=stylesheet type=text/css href="{{ url_for('static', filename='styles.css') }}">
-	</head>
+					<label for="description">Description:</label>
+					<textarea class="form-control" maxlength="250" rows="3" name="description" placeholder="Description of the course"></textarea>
 
+					<label for="price">Price:</label>
+					<div class="input-group">
+						<div class="input-group-addon">$</div>
+						<input type ="text" class="form-control" maxlength="10" name="price" placeholder="Price in $">
+					</div>
+					<label for="course">Course:</label>
+					<div class="radio">
+					  <label>
+					    <input type="radio" name="course" id="course1" value="Appetizer">Appetizer
+					  </label>
+					</div>
+					<div class="radio">
+					  <label>
+					    <input type="radio" name="course" id="course2" value="Entree">Entree
+					  </label>
+					</div>
+					<div class="radio">
+					  <label>
+					    <input type="radio" name="course" id="course3" value="Dessert">Dessert
+					  </label>
+					</div>
+					<div class="radio">
+					  <label>
+					    <input type="radio" name="course" id="course4" value="Beverage">Beverage
+					  </label>
+					</div>
+					<button type="submit" class="btn btn-default" id="submit" type="submit">
+					<span class="glyphicon glyphicon-glass" aria-hidden="true"></span>Create</button>
+				</div>
+			</form>
+		</div>
+	</div>
+{% endblock %}
 
-<body>
-<div class = 'pane'>
-<p>
-
-<h1>New Menu Item</h1>
-
-
-
-<form action="{{url_for('newMenuItem', restaurant_id = restaurant_id)}}" method='post'>
-
-<h4>Name:</h4>
-<input type='text' size='30' name='name'>
-</br></br>
-
-<h4>Description:</h4>
-<input type='text' size='30' name='description'>
-</br></br>
-
-<h4>Price:</h4>
-<input type='text' size='30' name='price'>
-</br></br>
-
-<h4>Course:</h4>
-<div class= 'leftAlign'>
-<input type='radio' name='course' value='Appetizer'/> Appetizer
-</br>
-<input type='radio' name='course' value='Entree'/> Entree
-</br>
-<input type='radio' name='course' value='Dessert'/> Dessert
-</br>
-<input type='radio' name='course' value='Beverage'/> Beverage
-</br>
-</br></br>
-<input type='submit' value='Create'>
-
-</form>
-
-
-</p>
-</div>
-</body>
-
-</html>	

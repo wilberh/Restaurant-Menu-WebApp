@@ -1,10 +1,10 @@
 {% extends "main.html" %}
 {% block content %}
-{% include "header.html" %}
 	<div class="row top-menu">
 		<div class="col-md-10"></div>
 		<div class="col-md-2 text-right">
-					</div>
+			<a href="{{url_for('showLogin')}}">Click Here to Log in </a>
+		</div>
 	</div>
 	<div class="row divider blue">
 		<div class="col-md-12"></div>
@@ -16,7 +16,7 @@
 		</div>
 	</div>
 
-<div class = 'flash'>
+	<div class = 'flash'>
 		      {% with messages = get_flashed_messages() %}
       {% if messages %}
           
@@ -29,15 +29,13 @@
     {% endwith %}
 
 </div>
+
+
 	
 	<div class="row padding-top padding-bottom">
 		<div class="col-md-1"></div>
 		<div class="col-md-10 padding-none">
-			<a href="{{url_for('newRestaurant')}}">
-				<button class="btn btn-default" id="new-restaurant">
-					<span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span>Add Restaurant
-				</button>
-			</a>
+			
 		</div>
 		<div class="col-md-1"></div>
 	</div>

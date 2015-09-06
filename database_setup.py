@@ -1,3 +1,5 @@
+# This Python file creates the database 3 tables: User, Restaurant, and MenuItem
+
 from sqlalchemy import Column, ForeignKey, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
@@ -6,6 +8,8 @@ from sqlalchemy import create_engine
 Base = declarative_base()
 
 
+# Creating the User table to track the users creating/adding items to the
+# Restaurant and MenuItem tables
 class User(Base):
     __tablename__ = 'user'
 
@@ -15,6 +19,7 @@ class User(Base):
     picture = Column(String(250))
 
 
+# Creating the Restaurant table
 class Restaurant(Base):
     __tablename__ = 'restaurant'
 
@@ -24,6 +29,7 @@ class Restaurant(Base):
     user_id = Column(Integer, ForeignKey('user.id'))
     user = relationship(User)
 
+    # This method is for extracting the list of restaurants in JSON format
     @property
     def serialize(self):
         """Return object data in easily serializeable format"""
@@ -33,6 +39,7 @@ class Restaurant(Base):
         }
 
 
+# Creating the MenuItem table
 class MenuItem(Base):
     __tablename__ = 'menu_item'
 
@@ -46,7 +53,7 @@ class MenuItem(Base):
     user_id = Column(Integer, ForeignKey('user.id'))
     user = relationship(User)
 
-    @property
+    # This method is for extracting the list of menu items in JSON format
     def serialize(self):
         """Return object data in easily serializeable format"""
         return {
@@ -58,6 +65,7 @@ class MenuItem(Base):
         }
 
 
+# Creating the database file
 engine = create_engine('sqlite:///restaurantmenuwithusers.db')
 
 

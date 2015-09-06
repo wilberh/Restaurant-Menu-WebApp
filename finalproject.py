@@ -1,4 +1,4 @@
-# This program is an implementation of a Restaurant Menu App
+# This program is an implementation of a Restaurant Menu Web App
 
 
 # Importing Flask class, and render templace function.

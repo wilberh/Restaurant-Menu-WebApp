@@ -1,4 +1,4 @@
-# This Python file creates the database 3 tables: User, Restaurant, and MenuItem
+# Python file creates the database with 3 tables: User, Restaurant, and MenuItem
 
 from sqlalchemy import Column, ForeignKey, Integer, String
 from sqlalchemy.ext.declarative import declarative_base

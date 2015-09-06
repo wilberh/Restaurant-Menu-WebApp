@@ -27,7 +27,7 @@ A second Python module (finalproject.py) was use to start the web server.
   * publicrestaurants.html
   * restaurants.html
 * 4. The 1 CSS file (styles.css) contain the styling of the 8 HTML files.
-* 5. The 2 JSON files (client_secrets.json, fb_client_secrets.json) contain Client ID / Client secret information from your registered Wep App in Google (client_secrets.json) and Facebook (fb_client_secrets.json).
+* 5. The 2 JSON files (client_secrets.json, fb_client_secrets.json) contain Client ID / Client secret information from your registered Wep App in Google (client_secrets.json) and Facebook (fb_client_secrets.json).  These files allow for 3rd party authentication using a Google or Facebook OAuth v2 login.
 
 The database_setup.py Python file needs be run to create the database and corresponding tables.  The finalproject.py Python file will start the web server and render the necessary webpages as the user interacts with them.
 

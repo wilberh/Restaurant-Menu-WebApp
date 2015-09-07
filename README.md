@@ -1,5 +1,5 @@
 # Restaurant-Menu-WebApp
-- Udacity Project 3:  Item Catalog - using SQLAlchemy, Flask, and Python
+- Udacity Project 3:  Item Catalog - using Python, Flask, and SQLAlchemy
 
 
 This is an implementation of a web application that provides a list of restaurants and detail information of their menu items.  Users have the ability to post, edit, and delete the menu items and restaurants.  The Flask framework was use to render the webpages along with HTML, and CSS.

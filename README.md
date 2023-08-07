@@ -81,4 +81,4 @@ This Restaurant-Menu-WebApp documentation included in this repo in the root dire
 **Wilber Hernandez**
 - github.com/wilberh
 - twitter.com/wilberh
-- linkedin.com/in/wilberh
+- [linkedin.com/in/wilberhdez26](https://www.linkedin.com/in/wilberhdez26/)

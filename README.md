@@ -79,6 +79,6 @@ This Restaurant-Menu-WebApp documentation included in this repo in the root dire
 
 ## CREATOR
 **Wilber Hernandez**
-- github.com/wilberh
-- twitter.com/wilberh
+- [github.com/wilberh](https://github.com/wilberh)
+- [twitter.com/wilberh](https://twitter.com/wilberhdez)
 - [linkedin.com/in/wilberhdez26](https://www.linkedin.com/in/wilberhdez26/)

@@ -61,7 +61,7 @@ within the download you'll find the following files:
 Have a bug or a feature request? Please open an [issue](https://github.com/wilberh/Restaurant-Menu-WebApp/issues/new).
 
 ## DOCUMENTATION
-This Restaurant-Menu-WebApp documentation included in this repo in the root directory is built with Python version 2.7.9, Flask web framework, and SQLAlchemy.  The docs may also be run locally in your Linux database server, or Linux virtual databaser server.
+This Restaurant-Menu-WebApp documentation included in this repo in the root directory is built with Python version 3.9, Flask web framework, and SQLAlchemy.  The docs may also be run locally in your Linux database server, or Linux virtual databaser server.
 
 
 ## RUNNING DOCUMENTATION LOCALLY

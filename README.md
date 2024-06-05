@@ -1,5 +1,5 @@
 # Restaurant-Menu-WebApp
-- Udacity Project 3:  Restaurant Menu Web App - using Python, Flask, and SQLAlchemy
+- Udacity Project 3.9:  Restaurant Menu Web App - using Python, Flask, and SQLAlchemy
 
 
 This is an implementation of a web application that provides a list of restaurants and detail information of their menu items.  Users have the ability to post, edit, and delete the menu items and restaurants.  The Flask framework was use to render the webpages along with HTML, and CSS.
@@ -8,7 +8,7 @@ This project used SQLAlchemy to build a database from a Python module (database_
 A second Python module (finalproject.py) was use to start the web server.
 
 ## This project consists of 
-2 Python version 2.7.9 files, 13 HTML files, 1 CSS file, and 2 JSON files,
+2 Python files, 13 HTML files, 1 CSS file, and 2 JSON files,
 
 * 1. The database_setup.py Python file is for creating the datbase using SQLAlchemy.  
 * 2. The finalproject.py Python file is for starting the web server and rendering the webpages.  
@@ -65,7 +65,7 @@ This Restaurant-Menu-WebApp documentation included in this repo in the root dire
 
 
 ## RUNNING DOCUMENTATION LOCALLY
-- 1. If necessary, install Python version 2.7.9, Flask web framework (http://flask.pocoo.org/docs/0.10/installation/), and SQLAlchemy (http://www.sqlalchemy.org/download.html) in a Linux database server or Linux virtual database server
+- 1. If necessary, install Python version 3.9, Flask web framework (http://flask.pocoo.org/docs/0.10/installation/), and SQLAlchemy (http://www.sqlalchemy.org/download.html) in a Linux database server or Linux virtual database server
 - 2. From the root /Restaurant-Menu-WebApp directory, run database_setup.py in the command line by typing, "python database_setup.py" 
 - 3. From the root /Restaurant-Menu-WebApp directory, run finalproject.py in the command line by typing, "python finalproject.py"
 - 4. Open your web browser using the link, http://localhost:5000/restaurants/

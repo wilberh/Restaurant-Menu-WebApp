@@ -65,7 +65,7 @@ This Restaurant-Menu-WebApp documentation included in this repo in the root dire
 
 
 ## RUNNING DOCUMENTATION LOCALLY
-- 1. If necessary, install Python version 3.9, [Flask web framework](flask.palletsprojects.com), and [SQLAlchemy](http://www.sqlalchemy.org/download.html) in a Linux database server or Linux virtual database server
+- 1. If necessary, install Python version 3.9, [Flask web framework](https://flask.palletsprojects.com/), and [SQLAlchemy](http://www.sqlalchemy.org/download.html) in a Linux database server or Linux virtual database server
 - 2. From the root /Restaurant-Menu-WebApp directory, run database_setup.py in the command line by typing, "python database_setup.py" 
 - 3. From the root /Restaurant-Menu-WebApp directory, run finalproject.py in the command line by typing, "python finalproject.py"
 - 4. Open your web browser using the link, http://localhost:5000/restaurants/
